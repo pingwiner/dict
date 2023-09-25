@@ -1,0 +1,145 @@
+#main {
+	padding: 16px;
+	position: relative;
+}
+
+#hints {
+	width: 90%;
+	font-size: 14px;
+	border-radius: 20px;	
+}
+
+#hints div {
+	padding: 8px;
+	border-bottom: 1px solid lightgrey;	
+	background: white;
+	margin-left: 16px;
+}
+
+#hints div:hover {
+	background: #ececec;
+}
+
+.d-none {
+    display: none;
+}
+
+.search-form {
+	width: 95%;
+	background: white;
+	position: relative;
+	z-index: 3;
+}
+
+input {
+	border-radius: 20px;
+}
+
+#search {
+	position: relative;
+}
+
+#word {
+	position: relative;
+	font-size: 18px;
+	padding-left: 32px;
+	padding-top:8px;
+	padding-bottom:8px;
+	width: 100%;
+	margin-right: 28px;
+}
+
+#search-icon {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+#clear {
+	position: absolute;
+	top: 6px;
+	right: -30px;
+}
+
+label {
+	margin-left: 16px;
+}
+
+#translation {
+	margin-left: 16px;
+	font-size: 22px;
+}
+
+.tab-header {
+	display: inline-block;
+}
+
+.headers {
+	margin-left: 8px;
+}
+
+.headers div {
+	background: rgb(234, 234, 234);	
+	color: rgb(96, 96, 96);
+	z-index: 0;
+}
+
+.headers .active {
+	background: white;
+	color: black;
+	z-index: 1;
+}
+
+.tab-header {
+	border-top: 1px solid rgb(204, 204, 204);
+	border-left: 1px solid rgb(204, 204, 204);
+	border-right: 1px solid rgb(204, 204, 204);
+	border-radius: 8px;
+	width: fit-content;
+	padding: 4px 8px 12px 8px;
+	font-size: 1.2em;
+	cursor: pointer;
+	position: relative;
+}
+
+#tab-header1 {
+
+}
+
+#tab-header2 {
+	margin-left: -8px;
+}
+
+
+#tab2 {
+	display: none;
+}
+
+#theme {
+    position: relative;
+    font-size: 18px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height: 40px;
+    border-radius: 16px;
+}
+
+#wordlist td {
+	padding: 8px 16px 8px 16px;
+	font-size: 1.2em;
+	border: 1px solid rgb(234, 234, 234);
+}
+
+.divider {
+	height: 16px;
+	background: white;
+	width: 100%;
+	border-top: 1px solid rgb(234, 234, 234);
+	position: relative;
+	z-index: 5;
+	margin-top: -10px;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузинско-русский словарь</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="css/dict.css">
+    <script src="js/db.js"></script>
+  </head>
+  <body>
+    <div id="main">
+
+      <div class="headers">
+        <div class="tab-header active" id="tab-header1">Поиск</div>
+        <div class="tab-header" id="tab-header2">Темы</div>        
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="tab" id="tab1">
+        <div class="tab-body">
+          <form class="search-form" id="form1">
+            <div class="form-group">
+              <div id="search">
+                <input type="search" class="form-control border-right-0 border" id="word" name="word" placeholder="Введите слово">
+                <img id="search-icon" src="img/icon_search.svg" />
+                <img id="clear" src="img/icon_clear.png" class="d-none"/>
+                <input name="empty" class="d-none">
+              </div>
+            </div>
+          </form>
+
+          <div id="hints"></div>
+          <div id="translation" class="lead"></div>
+        </div>
+      </div>
+      <div class="tab" id="tab2">
+        <div class="tab-body">
+          <form class="search-form" id="form2">
+            <div class="form-group">
+              <select name="theme" id="theme" class="form-control border-right-0 border"></select>  
+            </div>
+          </form>
+
+          <table id="wordlist"></table>
+        </div>
+      </div>        
+    </div>
+  </body>
+  <script src="js/dict.js?v=1"></script>
+</html>
